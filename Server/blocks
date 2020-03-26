@@ -1,0 +1,7 @@
+#Blocks declaration
+#BlockType BlockName( ID, isTransparent, lightLvlEmitted, hardness, breakingTool )
+#BlockType : Block
+#breakingTool (write it in binary) : 4 first digits = toolType; 4 last digits toolLvl;
+
+Block air(0,true,0,0,00000000);
+Block dirt(1,false,0,0.1,00000000);
